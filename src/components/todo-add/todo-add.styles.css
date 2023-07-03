@@ -1,0 +1,5 @@
+.form-field::-ms-input-placeholder,
+.form-field:-ms-input-placeholder,
+.form-field::placeholder {
+  font-style: italic;
+}

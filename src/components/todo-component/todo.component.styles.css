@@ -1,0 +1,19 @@
+.todo-checkbox > input[type="checkbox"] {
+  display: none;
+}
+
+.todo-checkbox > input[type="checkbox"] + div {
+  border: 1px solid var(--gray200);
+  border-radius: 15px;
+}
+
+.todo-checkbox > input[type="checkbox"]:checked + div {
+  border: 1px solid var(--green200);
+}
+
+.todo-checkbox > input[type="checkbox"] + div > .check {
+  display: none;
+}
+.todo-checkbox > input[type="checkbox"]:checked + div > .check {
+  display: block;
+}
